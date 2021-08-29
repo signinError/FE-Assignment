@@ -1,0 +1,20 @@
+.holofy-mobile {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 120px;
+    height: 180px;
+    border-radius: 8px;
+    /* border: 1px solid #ddd; */
+    /* background-color: #fff; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+}
+
+
+.invisible-holofy-mobile {
+    display: none;
+}

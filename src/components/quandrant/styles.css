@@ -1,0 +1,26 @@
+.quandrant {
+    /* border: 1px solid #fff; */
+    background: transparent;
+    position: absolute;
+}
+
+
+.quandrant1 {
+    top: 0;
+    left: 0;
+}
+
+.quandrant2 {
+    top: 0;
+    right: 0;
+}
+
+.quandrant3 {
+    bottom: 0;
+    right: 0;
+}
+
+.quandrant4 {
+    left: 0;
+    bottom: 0;
+}
