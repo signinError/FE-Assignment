@@ -3,7 +3,7 @@ import product from '../../videos/product.mp4';
 import './styles.css';
 export default function VideoElement({moved}) {
     const [playState, setPlay] = useState(false);
-
+    console.log(moved);
     const videoRef = useRef(null);
     // make sure, video is paused when loaded
     useEffect(() => {
@@ -12,6 +12,7 @@ export default function VideoElement({moved}) {
 
 
     useEffect(() => {
+        // console.log(moved);
         if(playState) {
             videoRef.current.play();
         }
@@ -25,11 +26,8 @@ export default function VideoElement({moved}) {
         e.preventDefault();
         setPlay(!playState);
     }
-    if(playState && moved) {
-        videoRef.current.pause();
-    }
+    
     return (
-        
         <>
             <video height="100%" width="100%" ref={videoRef} onClick={handleVideoClick} autoPlay loop>
                 <source src={product} type="video/mp4" />

@@ -29,21 +29,21 @@
 
 .place-top-left {
     right: unset !important;
-    top: 10px !important;
-    left: 10px !important;
+    top: 20px !important;
+    left: 20px !important;
 }
 .place-top-right {
     left: unset !important;
-    top: 10px !important;
-    right: 10px !important;
+    top: 20px !important;
+    right: 20px !important;
 }
 .place-bottom-left {
     right: unset !important;
-    bottom: 10px !important;
-    left: 10px !important;
+    bottom: 20px !important;
+    left: 20px !important;
 }
 .place-bottom-right {
     left: unset !important;
-    bottom: 10px !important;
-    right: 10px !important;
+    bottom: 20px !important;
+    right: 20px !important;
 }
